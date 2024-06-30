@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Marquee Page</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .marquee {
+            color: #fff;
+            background-color: #333;
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .marquee marquee {
+            background-color: #666;
+            padding: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="marquee">
+            <marquee behavior="scroll" direction="left" scrollamount="12">
+                <span style="color: #ff0000">Welcome!</span>
+                <span style="color: #00ff00"> to our</span>
+                <span style="color: #0000ff"> colorful</span>
+                <span style="color: #ffff00"> marquee</span>
+                <span style="color: #ff00ff"> page!</span>
+            </marquee>
+        </div>
+        <div style="background-color: #ffe6cc; padding: 20px;">
+            <h2 style="color: #666;">This is a colorful page with a marquee!</h2>
+            <p style="color: #333;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+</body>
+</html>
